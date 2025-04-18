@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="ugugdsun 4 toonii 7 d uldegdelgui huvaagddag toog ol (nemelt onoo)"/>
+        <attribute name="authors" value="Anand"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-09-24 10:36:10 PM"/>
+        <attribute name="created" value="QW5hbmQ7TEFQVE9QLTlDUUg3SlFNOzIwMjQtMDktMjQ7MTA6Mjg6MjYgUE07Mjg0MQ=="/>
+        <attribute name="edited" value="QW5hbmQ7TEFQVE9QLTlDUUg3SlFNOzIwMjQtMDktMjQ7MTA6MzY6MTAgUE07MTsyOTQx"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b, c, d" type="Integer" array="False" size=""/>
+            <output expression="&quot;ehnii toog oruul&quot;" newline="True"/>
+            <input variable="a"/>
+            <output expression="&quot;2doh toog oruul&quot;" newline="True"/>
+            <input variable="b"/>
+            <output expression="&quot;3dah toog oruul&quot;" newline="True"/>
+            <input variable="c"/>
+            <output expression="&quot;4duh toog oruul&quot;" newline="True"/>
+            <input variable="d"/>
+            <if expression="a%7==0">
+                <then>
+                    <output expression="a" newline="True"/>
+                </then>
+                <else>
+                    <if expression="b%7==0">
+                        <then>
+                            <output expression="b" newline="True"/>
+                            <clear/>
+                        </then>
+                        <else>
+                            <if expression="c%7==0">
+                                <then>
+                                    <output expression="c" newline="True"/>
+                                </then>
+                                <else>
+                                    <if expression="d%7==0">
+                                        <then>
+                                            <output expression="d" newline="True"/>
+                                        </then>
+                                        <else>
+                                            <output expression="&quot;x&quot;" newline="True"/>
+                                        </else>
+                                    </if>
+                                </else>
+                            </if>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

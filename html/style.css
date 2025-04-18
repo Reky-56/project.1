@@ -1,0 +1,91 @@
+
+* {
+    box-sizing: border-box; /* padding iig toiruulj box uusgene*/
+    font-family: "Poppins", sans-serif;
+
+}
+
+body {
+    display: flex; /* window browsert dotorh buh item element iig uyan nalarhai bolgono*/
+    justify-content: center; /* delgetsend (container) baigaa buh elementiig golloj ugnu*/
+    align-items: center; /* body dotorh item uudiig bugdeng n golluulj baina*/
+    background: rgb(0, 0, 0);
+}
+.wrapper {
+    width: 420px;
+    background: rgb(0, 0, 0); 
+    color: rgba(229, 7, 7, 0.944); 
+}
+.wrapper h1 {
+    text-align: center;
+    opacity: 1.0; /* tungalag baidal (transparency) */
+}
+.wrapper .input-box {
+    position: relative; 
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+}
+.input-box input{
+    width: 100%;
+    height: 100%;
+    background: rgb(0, 0, 0);
+    border: 2px solid rgba(229, 7, 7, 0.944);
+    border-radius: 40px; /* border radius n ugugdsun border iin irmeguudiig
+    toiruu bolgono. 40px iin radiustai muriisan baina gesen ug*/
+    font-size: 16px;
+    color:rgba(229, 7, 7, 0.944);
+    padding: 20px 45px 20px 20px; 
+}
+.input-box input::placeholder {
+    color:rgba(229, 7, 7, 0.944);
+
+}
+.input-box i {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+}
+.wrapper .remember-forgot {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14.5px;
+    margin: -15px 0 15px; /* margin top right bottom left gesen daraallaar yvdag 
+    uchir top -15; right 0; bottom 15; left ugugduugui uchir 0 gej oilgono*/
+}
+.remember-forgot label input {
+    accent-color: rgba(229, 7, 7, 0.944);
+    margin-right:3px ; /* baruun talaasaa 3pixel zai avna*/
+}
+.remember-forgot a {
+    color : rgba(229, 7, 7, 0.944);
+    text-decoration: underline;
+}
+.remember-forgot a:hover {
+    text-decoration: underline;
+}
+.wrapper .btn {
+    width: 100%;
+    height: 45px;
+    background: rgba(229, 7, 7, 0.829);
+    border-radius: 40px;
+    cursor: pointer;
+    font-size: 16px;
+    color: rgb(0, 0, 0)
+    font-weight = 600;
+}
+.wrapper .register-link {
+    font-size: 14.5px;
+    text-align: center;
+    margin-top: 20px; /* deed talaasaa 20px avna */
+}
+.register-link p a {
+    color:rgba(229, 7, 7, 0.944);
+    text-decoration: none;
+    font-weight: 600;
+}
+.register-link p a:hover {
+    text-decoration: underline ;
+}

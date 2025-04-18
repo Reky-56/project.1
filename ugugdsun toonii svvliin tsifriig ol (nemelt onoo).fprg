@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Ugugdsun toonii suuliin tsifriig ol"/>
+        <attribute name="authors" value="Anand"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-09-24 09:56:06 PM"/>
+        <attribute name="created" value="QW5hbmQ7TEFQVE9QLTlDUUg3SlFNOzIwMjQtMDktMjQ7MDk6NTI6NDQgUE07Mjg0Ng=="/>
+        <attribute name="edited" value="QW5hbmQ7TEFQVE9QLTlDUUg3SlFNOzIwMjQtMDktMjQ7MDk6NTY6MDYgUE07MTsyOTU2"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b, c" type="Integer" array="False" size=""/>
+            <output expression="&quot;a toog oruul&quot;" newline="True"/>
+            <input variable="a"/>
+            <assign variable="b" expression="a / 10"/>
+            <assign variable="c" expression="a-b*10"/>
+            <output expression="c" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="X-iin utga ugugduhud daraah ilerhiilliig bod 4x kvadrat-3x=5 (nemelt onoo)"/>
+        <attribute name="authors" value="Anand"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-09-24 10:17:23 PM"/>
+        <attribute name="created" value="QW5hbmQ7TEFQVE9QLTlDUUg3SlFNOzIwMjQtMDktMjQ7MTA6MTI6NTUgUE07MjgzNg=="/>
+        <attribute name="edited" value="QW5hbmQ7TEFQVE9QLTlDUUg3SlFNOzIwMjQtMDktMjQ7MTA6MTc6MjMgUE07MTsyOTQ0"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="x, y" type="Integer" array="False" size=""/>
+            <output expression="&quot;x toog oruul&quot;" newline="True"/>
+            <input variable="x"/>
+            <assign variable="y" expression="(x*x*4)-(3*x)+5"/>
+            <output expression="y" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Toonii sondgoi tegshiig oloh (nemelt onoo)"/>
+        <attribute name="authors" value="Anand"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-09-24 10:20:28 PM"/>
+        <attribute name="created" value="QW5hbmQ7TEFQVE9QLTlDUUg3SlFNOzIwMjQtMDktMjQ7MTA6MTc6NTMgUE07MjgzOQ=="/>
+        <attribute name="edited" value="QW5hbmQ7TEFQVE9QLTlDUUg3SlFNOzIwMjQtMDktMjQ7MTA6MjA6MjggUE07MTsyOTQz"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a" type="Integer" array="False" size=""/>
+            <output expression="&quot;too oruul&quot;" newline="True"/>
+            <input variable="a"/>
+            <if expression="a%2==0">
+                <then>
+                    <output expression="&quot;tegsh&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;sondgoi&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

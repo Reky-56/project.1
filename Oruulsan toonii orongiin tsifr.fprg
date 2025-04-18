@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Oruulsan toonii orongiin tsifr"/>
+        <attribute name="authors" value="Anand"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-09-19 11:47:08 PM"/>
+        <attribute name="created" value="QW5hbmQ7TEFQVE9QLTlDUUg3SlFNOzIwMjQtMDktMTk7MTE6NDI6MzkgUE07Mjg0Ng=="/>
+        <attribute name="edited" value="QW5hbmQ7TEFQVE9QLTlDUUg3SlFNOzIwMjQtMDktMTk7MTE6NDc6MDggUE07MTsyOTU1"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="too, oron" type="Integer" array="False" size=""/>
+            <output expression="&quot;toog oruul&quot;" newline="True"/>
+            <input variable="too"/>
+            <assign variable="oron" expression="0"/>
+            <while expression="too&gt;0">
+                <assign variable="too" expression="too/10"/>
+                <assign variable="oron" expression="oron+1"/>
+            </while>
+        </body>
+    </function>
+</flowgorithm>

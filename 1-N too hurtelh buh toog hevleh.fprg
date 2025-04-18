@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="1-N too hurtelh buh toog hevleh"/>
+        <attribute name="authors" value="Anand"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-09-24 07:48:23 PM"/>
+        <attribute name="created" value="QW5hbmQ7TEFQVE9QLTlDUUg3SlFNOzIwMjQtMDktMjQ7MDc6NDE6MTcgUE07Mjg0Mg=="/>
+        <attribute name="edited" value="QW5hbmQ7TEFQVE9QLTlDUUg3SlFNOzIwMjQtMDktMjQ7MDc6NDg6MjMgUE07MTsyOTU0"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="counter, N" type="Integer" array="False" size=""/>
+            <output expression="&quot;N toog oruul&quot;" newline="True"/>
+            <input variable="N"/>
+            <assign variable="counter" expression="1"/>
+            <while expression="counter &lt; N">
+                <output expression="counter" newline="True"/>
+                <assign variable="counter" expression="counter + 1"/>
+            </while>
+        </body>
+    </function>
+</flowgorithm>

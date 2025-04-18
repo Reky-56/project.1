@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Ugugdsun secondiig minute second bolgon bichih (nemelt onoo)"/>
+        <attribute name="authors" value="Anand"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-09-24 10:12:52 PM"/>
+        <attribute name="created" value="QW5hbmQ7TEFQVE9QLTlDUUg3SlFNOzIwMjQtMDktMjQ7MTA6MDE6MzYgUE07MjgzMw=="/>
+        <attribute name="edited" value="QW5hbmQ7TEFQVE9QLTlDUUg3SlFNOzIwMjQtMDktMjQ7MTA6MTI6NTIgUE07MTsyOTQx"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b, c, minute, second" type="Integer" array="False" size=""/>
+            <output expression="&quot;a toog oruul&quot;" newline="True"/>
+            <input variable="a"/>
+            <assign variable="b" expression="a/60"/>
+            <assign variable="c" expression="a-b*60"/>
+            <output expression="b" newline="True"/>
+            <output expression="&quot;minute&quot;" newline="True"/>
+            <output expression="c" newline="True"/>
+            <output expression="&quot;second&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="programm daalgavar 1"/>
+        <attribute name="authors" value="Anand"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-09-24 08:30:04 PM"/>
+        <attribute name="created" value="QW5hbmQ7TEFQVE9QLTlDUUg3SlFNOzIwMjQtMDktMTk7MDc6NTc6NTcgUE07Mjg1Nw=="/>
+        <attribute name="edited" value="QW5hbmQ7TEFQVE9QLTlDUUg3SlFNOzIwMjQtMDktMjQ7MDg6MzA6MDQgUE07MzsyOTQ3"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a" type="Integer" array="False" size=""/>
+            <output expression="&quot;a toog oruul&quot;" newline="True"/>
+            <input variable="a"/>
+            <declare name="counter" type="Integer" array="False" size=""/>
+            <declare name="prime" type="Boolean" array="False" size=""/>
+            <assign variable="prime" expression="true"/>
+            <for variable="counter" start="2" end="a-1" direction="inc" step="1">
+                <if expression="a % counter == 0">
+                    <then>
+                        <assign variable="prime" expression="False"/>
+                    </then>
+                    <else/>
+                </if>
+            </for>
+            <output expression="&quot;prime&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

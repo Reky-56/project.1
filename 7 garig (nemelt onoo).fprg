@@ -1,0 +1,67 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="7 garig (nemelt onoo)"/>
+        <attribute name="authors" value="Anand"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-09-24 10:27:18 PM"/>
+        <attribute name="created" value="QW5hbmQ7TEFQVE9QLTlDUUg3SlFNOzIwMjQtMDktMjQ7MTA6MjA6NTEgUE07MjgzMQ=="/>
+        <attribute name="edited" value="QW5hbmQ7TEFQVE9QLTlDUUg3SlFNOzIwMjQtMDktMjQ7MTA6Mjc6MTggUE07MTsyOTQ5"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a" type="Integer" array="False" size=""/>
+            <output expression="&quot;too oruul&quot;" newline="True"/>
+            <input variable="a"/>
+            <if expression="a==1">
+                <then>
+                    <output expression="&quot;Monday&quot;" newline="True"/>
+                </then>
+                <else>
+                    <if expression="a==2">
+                        <then>
+                            <output expression="&quot;Tuesday&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <if expression="a==3">
+                                <then>
+                                    <output expression="&quot;Wednesday&quot;" newline="True"/>
+                                </then>
+                                <else>
+                                    <if expression="a==4">
+                                        <then>
+                                            <output expression="&quot;Thursday&quot;" newline="True"/>
+                                        </then>
+                                        <else>
+                                            <if expression="a==5">
+                                                <then>
+                                                    <output expression="&quot;Friday&quot;" newline="True"/>
+                                                </then>
+                                                <else>
+                                                    <if expression="a==6">
+                                                        <then>
+                                                            <output expression="&quot;Saturday&quot;" newline="True"/>
+                                                        </then>
+                                                        <else>
+                                                            <if expression="a==7">
+                                                                <then>
+                                                                    <output expression="&quot;Sunday&quot;" newline="True"/>
+                                                                </then>
+                                                                <else/>
+                                                            </if>
+                                                        </else>
+                                                    </if>
+                                                </else>
+                                            </if>
+                                        </else>
+                                    </if>
+                                </else>
+                            </if>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

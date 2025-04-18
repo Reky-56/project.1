@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Hamgiin ih yurunhii huvaagchiig ol"/>
+        <attribute name="authors" value="Anand"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-09-24 08:10:09 PM"/>
+        <attribute name="created" value="QW5hbmQ7TEFQVE9QLTlDUUg3SlFNOzIwMjQtMDktMjQ7MDg6MDI6MDUgUE07MjgzNw=="/>
+        <attribute name="edited" value="QW5hbmQ7TEFQVE9QLTlDUUg3SlFNOzIwMjQtMDktMjQ7MDg6MTA6MDkgUE07MTsyOTQ4"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="A, B" type="Integer" array="False" size=""/>
+            <output expression="&quot;A toog oruul&quot;" newline="True"/>
+            <input variable="A"/>
+            <output expression="&quot;B toog oruul&quot;" newline="True"/>
+            <input variable="B"/>
+            <while expression="not(B = 0)">
+                <if expression="A &gt; B">
+                    <then>
+                        <assign variable="A" expression="A - B"/>
+                    </then>
+                    <else>
+                        <assign variable="B" expression="B - A"/>
+                    </else>
+                </if>
+            </while>
+            <output expression="A" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

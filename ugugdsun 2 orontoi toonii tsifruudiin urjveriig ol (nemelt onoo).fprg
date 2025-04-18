@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="ugugdsun 2 orontoi toonii tsifruudiin urjveriig ol (nemelt onoo)"/>
+        <attribute name="authors" value="Anand"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-09-24 10:01:30 PM"/>
+        <attribute name="created" value="QW5hbmQ7TEFQVE9QLTlDUUg3SlFNOzIwMjQtMDktMjQ7MDk6NTY6NDggUE07Mjg1NA=="/>
+        <attribute name="edited" value="QW5hbmQ7TEFQVE9QLTlDUUg3SlFNOzIwMjQtMDktMjQ7MTA6MDE6MzAgUE07MTsyOTM1"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="x, y, z, f" type="Integer" array="False" size=""/>
+            <output expression="&quot;x toog oruul&quot;" newline="True"/>
+            <input variable="x"/>
+            <assign variable="y" expression="x/10"/>
+            <assign variable="z" expression="x-y*10"/>
+            <assign variable="f" expression="z*y"/>
+            <output expression="f" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
